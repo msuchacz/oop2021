@@ -18,11 +18,11 @@ namespace OOPlab1 {
             Console.WriteLine("my weight is now " + weight);
         }
 
-        public String returnSpeciesAndName() {
+        public string ReturnSpeciesAndName() {
             return Species + " " + Name;
         }
 
-        public String returnNameAndOwner(string owner) {
+        public string ReturnNameAndOwner(string owner) {
             return Name + " " + owner;
         }
     }
