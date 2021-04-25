@@ -9,12 +9,12 @@ namespace OOPlab1 {
 
             dog.Feed(2.0);
 
-            string text = dog.returnSpeciesAndName();
+            string text = dog.ReturnSpeciesAndName();
             Console.WriteLine(text);
             text += " afawefawfawe";
             Console.WriteLine(text);
 
-            String nameAndOwner = dog.returnNameAndOwner("Kacper");
+            String nameAndOwner = dog.ReturnNameAndOwner("Kacper");
             Console.WriteLine(nameAndOwner);
 
             Human me = new Human();
